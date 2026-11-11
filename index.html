@@ -26,7 +26,7 @@
 "image":"https://YOUR-SITE.vercel.app/images/og.jpg",
 "logo":"https://YOUR-SITE.vercel.app/images/logo.webp",
 "telephone":["+213674663047","+213779119556"],
-"address":{"@type":"PostalAddress","streetAddress":"REPLACE_STREET_ADDRESS","addressLocality":"REPLACE_CITY","addressCountry":"DZ"},
+"address":{"@type":"PostalAddress","addressLocality":"Chéraga","postalCode":"16014","addressCountry":"DZ"},
 "geo":{"@type":"GeoCoordinates","latitude":36.7677375,"longitude":2.9591719},
 "hasMap":"https://maps.app.goo.gl/dujRfwQQvp6kSgev9",
 "openingHours":"Mo-Su 08:00-24:00",
@@ -360,8 +360,8 @@ var IM={"case3-before.webp": "data:image/webp;base64,UklGRq49AABXRUJQVlA4IKI9AAB
 document.querySelectorAll("[data-im]").forEach(function(e){e.src=IM[e.dataset.im]});
 /* ===== إعدادات قابلة للتعديل ===== */
 var CFG={wa:"213779119556"}; // رقم واتساب الدولي
-// REPLACE: العنوان النصي للعيادة (عربي/فرنسي)
-var ADDR={ar:"[ضع عنوان العيادة هنا]",fr:"[Adresse du cabinet à renseigner]"};
+// العنوان النصي للعيادة (عربي/فرنسي): أضف الشارع والرقم هنا إن أردت
+var ADDR={ar:"شراقة 16014",fr:"Chéraga 16014"};
 // قبل/بعد: الصور في images/caseN-before.webp و caseN-after.webp. t = العنوان (ar, fr). w,h = أبعاد الصورة.
 var CASES=[
 {id:1,w:720,h:480,t:["حالة 1","Cas 1"]},
